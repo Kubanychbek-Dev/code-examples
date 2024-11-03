@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.js-container {
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 80px;
+}
+
+.js-link {
+  border: 1px solid #333;
+  font-size: 50px;
+  padding: 30px 68px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  background-color: yellow;
+}
+
+.python-container {
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 80px;
+}
+
+.python-link {
+  border: 1px solid #333;
+  font-size: 78px;
+  padding: 30px 60px;
+  text-decoration: none;
+  color: #9CA1A5;
+  font-weight: bold;
+  background-color: #1A415A;
+}
